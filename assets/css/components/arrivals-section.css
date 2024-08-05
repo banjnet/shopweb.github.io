@@ -1,0 +1,65 @@
+.arrivals-section {
+    width: 96%;
+    margin: 30px auto 70px auto;
+}
+
+.arrivals-section .h2-text-container{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.arrivals-section .card-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+@media (min-width: 400px) {
+
+.arrivals-section .card-box .card {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 700px) {
+
+    .arrivals-section .card-box .card {
+        width: 40%;
+    }
+
+    .favourite-section .arrivals-section .card{
+        width: 45%;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+    .arrivals-section .card-box .card {
+        width: 30%;
+    }
+
+    .favourite-section .arrivals-section .card{
+        width: 47%;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+    .arrivals-section .card-box .card {
+        width: 30%;
+    }
+
+    .favourite-section .arrivals-section .card{
+        width: 48%;
+}
+
+}
+
+
+

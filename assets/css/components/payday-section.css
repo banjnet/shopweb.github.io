@@ -1,0 +1,107 @@
+.payday-section{
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(1deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.payday-section .payday-inner-left img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.payday-section .payday-inner-right {
+    padding: 3em 3em 0 3em ;
+}
+
+
+.payday-section .payday-inner-right .h1-text-container .h1-text {
+	font-size: 10em;
+}
+
+.payday-inner-right .sales-text-container {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 400px) {
+
+    .payday-section .payday-inner-left {
+            width: 100%;
+        }
+
+    .payday-section .payday-inner-right {
+            width: 100%;
+        }
+    
+}
+
+@media (max-width: 500px) {
+
+    .payday-section  {
+            padding-bottom: 30px;
+        }
+    
+}
+
+    
+    @media (min-width: 700px) {
+
+        /* .payday-section{
+            flex-wrap: nowrap;
+        } */
+    .payday-section .payday-inner-left {
+            width: 50%;
+        }
+
+    .payday-section .payday-inner-right {
+            width: 50%;
+
+        }
+        
+    .payday-section .payday-inner-right .text{
+        font-size: 4px;
+        }
+    
+    .payday-section .payday-inner-right .btn-text {
+        font-size: 3em;
+    }
+
+    }
+
+
+    @media (min-width: 1000px) {
+
+        .payday-section .payday-inner-right .text{
+            font-size: 5.5px;
+            }
+
+            
+        .payday-section .payday-inner-right {
+            padding: 5em 10em 5em 3em;
+            margin: auto;
+        }
+        
+
+    }
+
+    @media (min-width: 1440px) {
+
+        .payday-section .payday-inner-right .text{
+            font-size: 8px;
+            }
+
+            
+        .payday-section .payday-inner-right {
+            padding: 10em 15em 10em 3em ;
+        }
+        
+        .payday-section .payday-inner-right .btn-text {
+            font-size: 3em;
+        }
+    
+    }

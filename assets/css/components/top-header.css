@@ -1,0 +1,188 @@
+.top-header{
+    width: 95%;
+    border-radius: 30px;
+    background: #F4F6F5;
+    margin: 20px auto;
+    padding: 10px 10px 10px 10px;
+
+    display: flex;
+}
+
+.top-header .top-header-left{
+    margin: auto 0;
+}
+
+
+.top-header-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.top-header-left .h1-text-container .h1-text {
+	font-size: 12em;
+}
+
+
+.top-header-right img{
+    max-width: 90%;
+    height:fit-content;
+}
+
+
+/* start of company logos*/
+.company-logos{
+    background: #EBD96B;
+    height: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    
+}
+
+
+/* end of company logos */
+
+
+
+@media (min-width: 400px) {
+
+.top-header{
+    flex-direction: column-reverse;
+}
+
+.top-header .top-header-left .top-header-buttons .size{
+    font-size: 4px;
+}
+
+.btn {
+    font-size: 5px !important;
+}
+
+.top-header-right img{
+    margin-bottom: 30px;
+    display: none;
+}
+
+.company-logos img{
+    width: 30%;
+    margin: 5px;
+}
+.top-header .top-header-left {
+    padding: 40px 0 0 30px;
+}
+
+}
+
+@media (min-width: 700px) {
+
+    .top-header{
+        flex-direction: row;
+    }
+
+    .top-header-left .h1-text-container .shake-text {
+        font-size: 8em;
+    }
+
+    .top-header .top-header-right img{
+        display:block;
+        position: relative;
+        top: 12%;
+        left: 5%;
+    }
+
+    .top-header-left .h1-text-container .h1-text {
+        font-size: 8em;
+    }
+
+      
+
+    .company-logos img{
+        width: 15%;
+        margin: 5px;
+    }
+
+    .top-header .top-header-left .top-header-buttons .size{
+        font-size: 4px;
+    }
+    
+    .btn {
+        font-size: 4px !important;
+    }
+
+    .top-header-left{
+        
+    }
+
+    .top-header-right{
+        width: 60%;
+    }
+
+    .top-header .top-header-left {
+        width: 40%;
+        padding: 40px 0 0 20px;
+    }
+
+    .hero-text-container .hero-text {
+        font-size: 2.5em;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+
+    .top-header{
+        flex-direction: row;
+    }
+
+    .top-header-left .h1-text-container .shake-text {
+        font-size: 9em;
+    }
+
+    .top-header-left .h1-text-container .h1-text {
+        font-size: 9em;
+    }
+
+    .top-header .top-header-left {
+        padding: 40px 0 0 60px;
+    }
+
+
+    .top-header .top-header-left .top-header-buttons .size{
+        font-size: 6px;
+    }
+    
+    .btn {
+        font-size: 5px !important;
+    }
+
+    .top-header .top-header-right img{
+        top: 8%;
+    }
+
+    .company-logos{
+        margin: 50px 0;
+
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .top-header .top-header-left {
+        padding-left: 50px;
+        margin: auto;
+    }
+
+    .top-header-right img{
+        top: 6% !important;
+    }
+
+}
